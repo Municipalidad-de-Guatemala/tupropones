@@ -2,6 +2,13 @@ FROM ruby:3.1.4-bullseye
 
 ENV DEBIAN_FRONTEND noninteractive
 
+RUN rm /etc/apt/sources.list
+RUN touch /etc/apt/sources.list  \
+    && echo 'deb https://deb.debian.org/debian bullseye main' >> /etc/apt/sources.list  \
+    && echo 'deb https://deb.debian.org/debian-security bullseye-security main' >> /etc/apt/sources.list  \
+    && echo 'deb https://deb.debian.org/debian bullseye-updates main' >> /etc/apt/sources.list
+
+
 # Install essential Linux packages
 RUN apt-get update -qq \
  && apt-get install -y \
