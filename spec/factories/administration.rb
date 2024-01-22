@@ -69,7 +69,7 @@ FactoryBot.define do
   end
 
   factory :site_customization_image, class: "SiteCustomization::Image" do
-    image { Rack::Test::UploadedFile.new("spec/fixtures/files/logo_header.png") }
+    image { Rack::Test::UploadedFile.new("spec/fixtures/files/logo_header_muniguate.png") }
     name { "logo_header" }
   end
 
