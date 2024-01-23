@@ -1,10 +1,5 @@
 GEM
-  remote: https://rails-assets.org/
-  specs:
-    rails-assets-markdown-it (9.0.1)
-
-GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     Ascii85 (1.1.0)
     actioncable (6.1.7.6)
@@ -685,6 +680,11 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.6.12)
+
+GEM
+  remote: https://rails-assets.org/
+  specs:
+    rails-assets-markdown-it (9.0.1)
 
 PLATFORMS
   ruby
