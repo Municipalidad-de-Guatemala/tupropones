@@ -1,89 +1,90 @@
+---
 es:
   officing:
-    header:
-      title: Votaciones
-    dashboard:
-      index:
-        title: Presidir mesa de votaciones
-        info: Aquí puedes validar documentos de ciudadanos y guardar los resultados de las urnas
-        no_shifts: No tienes turnos de presidente de mesa asignados hoy.
-    menu:
-      voters: Validar documento y votar
-      total_recounts: Recuento total y escrutinio
-    polls:
-      final:
-        title: Listado de votaciones finalizadas
-        no_polls: No tienes permiso para recuento final en ninguna votación reciente
-        select_poll: Selecciona votación
-        add_results: Añadir resultados
-    poll_budgets:
-      see_ballot_sheets: Ver lista de papeletas de votación
-      index:
-        title: "%{poll_budget} - Listado de papeletas de votación"
-        ballot_sheet: "Papeleta de votación %{id}"
-        ballot_sheet_name: Nombre
-        ballot_sheet_author: Autor
-        ballot_sheet_creation_date: Fecha de creación
-        empty_results: Aún no se han subido papeletas de votación
-      new:
-        title: "%{poll_budget} - Nueva papeleta de votación"
-        booth: Urna
-        select_booth: Elegir urna
-        csv_data: Datos de CSV
-        submit: Guardar
-      show:
-        created_at: Fecha de creación
-        author: Autor
-        data: Datos de CSV
     booth:
       new:
-        title: "Escoge tu urna"
-    results:
-      flash:
-        create: "Datos guardados"
-        error_create: "Resultados NO añadidos. Error en los datos"
-        error_wrong_booth: "Urna incorrecta. Resultados NO guardados."
-      new:
-        title: "%{poll} - Añadir resultados"
-        not_allowed: "No tienes permiso para introducir resultados"
-        booth: "Urna"
-        date: "Día"
-        select_booth: "Elige urna"
-        ballots_white: "Papeletas totalmente en blanco"
-        ballots_null: "Papeletas nulas"
-        ballots_total: "Papeletas válidas"
-        submit: "Guardar"
-        results_list: "Tus resultados"
-        see_results: "Ver resultados"
+        title: Escoge tu urna
+    dashboard:
       index:
-        no_results: "No hay resultados"
-        results: Resultados
-        table_answer: Respuesta
-        table_votes: Votos
-        table_whites: "Papeletas totalmente en blanco"
-        table_nulls: "Papeletas nulas"
-        table_total: "Papeletas válidas"
+        info: Aquí puedes validar documentos de ciudadanos y guardar los resultados de las urnas
+        no_shifts: No tienes turnos de presidente de mesa asignados hoy.
+        title: Presidir mesa de votaciones
+    header:
+      title: Votaciones
+    menu:
+      total_recounts: Recuento total y escrutinio
+      voters: Validar documento y votar
+    poll_budgets:
+      index:
+        ballot_sheet: Papeleta de votación %{id}
+        ballot_sheet_author: Autor
+        ballot_sheet_creation_date: Fecha de creación
+        ballot_sheet_name: Nombre
+        empty_results: Aún no se han subido papeletas de votación
+        title: "%{poll_budget} - Listado de papeletas de votación"
+      new:
+        booth: Urna
+        csv_data: Datos de CSV
+        select_booth: Elegir urna
+        submit: Guardar
+        title: "%{poll_budget} - Nueva papeleta de votación"
+      see_ballot_sheets: Ver lista de papeletas de votación
+      show:
+        author: Autor
+        created_at: Fecha de creación
+        data: Datos de CSV
+    polls:
+      final:
+        add_results: Añadir resultados
+        no_polls: No tienes permiso para recuento final en ninguna votación reciente
+        select_poll: Selecciona votación
+        title: Listado de votaciones finalizadas
     residence:
       flash:
-        create: "Documento verificado con el Padrón"
-        not_allowed: "Hoy no tienes turno de presidente de mesa"
+        create: Documento verificado con el Padrón
+        not_allowed: Hoy no tienes turno de presidente de mesa
       new:
-        title: Validar documento
-        submit: Validar documento
-        error_verifying_census: "El Padrón no pudo verificar este documento."
+        error_verifying_census: El Padrón no pudo verificar este documento.
         form_errors: evitaron verificar este documento
-    voters:
+        submit: Validar documento
+        title: Validar documento
+    results:
+      flash:
+        create: Datos guardados
+        error_create: Resultados NO añadidos. Error en los datos
+        error_wrong_booth: Urna incorrecta. Resultados NO guardados.
+      index:
+        no_results: No hay resultados
+        results: Resultados
+        table_answer: Respuesta
+        table_nulls: Papeletas nulas
+        table_total: Papeletas válidas
+        table_votes: Votos
+        table_whites: Papeletas totalmente en blanco
       new:
-        title: Votaciones
+        ballots_null: Papeletas nulas
+        ballots_total: Papeletas válidas
+        ballots_white: Papeletas totalmente en blanco
+        booth: Urna
+        date: Día
+        not_allowed: No tienes permiso para introducir resultados
+        results_list: Tus resultados
+        see_results: Ver resultados
+        select_booth: Elige urna
+        submit: Guardar
+        title: "%{poll} - Añadir resultados"
+    voters:
+      can_vote:
+        submit_disable_with: Espera, confirmando voto...
+      new:
+        not_to_vote: La persona ha decidido no votar por el momento
+        table_actions: Acciones
         table_poll: Votación
         table_status: Estado de las votaciones
-        table_actions: Acciones
-        not_to_vote: La persona ha decidido no votar por el momento
+        title: Votaciones
       show:
         can_vote: Puede votar
         cannot_vote: La persona no puede votar porque no está empadronada en el/los distrito/s en los que la votación tiene lugar.
         error_already_voted: Ya ha participado en esta votación.
         submit: Confirmar voto
         success: "¡Voto introducido!"
-      can_vote:
-        submit_disable_with: "Espera, confirmando voto..."

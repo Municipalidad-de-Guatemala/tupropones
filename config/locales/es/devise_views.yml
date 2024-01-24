@@ -1,3 +1,4 @@
+---
 es:
   devise_views:
     confirmations:
@@ -14,7 +15,7 @@ es:
     mailer:
       confirmation_instructions:
         confirm_link: Confirmar mi cuenta
-        text: "Puedes confirmar tu cuenta de correo electrónico en el siguiente enlace:"
+        text: 'Puedes confirmar tu cuenta de correo electrónico en el siguiente enlace:'
         title: Bienvenido/a
         welcome: Bienvenido/a
       reset_password_instructions:
@@ -22,12 +23,12 @@ es:
         hello: Hola
         ignore_text: Si tú no lo has solicitado, puedes ignorar este email.
         info_text: Tu contraseña no cambiará hasta que no accedas al enlace y la modifiques.
-        text: "Se ha solicitado cambiar tu contraseña, puedes hacerlo en el siguiente enlace:"
+        text: 'Se ha solicitado cambiar tu contraseña, puedes hacerlo en el siguiente enlace:'
         title: Cambia tu contraseña
       unlock_instructions:
         hello: Hola
         info_text: Tu cuenta ha sido bloqueada debido a un excesivo número de intentos fallidos de alta.
-        instructions_text: "Sigue el siguiente enlace para desbloquear tu cuenta:"
+        instructions_text: 'Sigue el siguiente enlace para desbloquear tu cuenta:'
         title: Tu cuenta ha sido bloqueada
         unlock_link: Desbloquear mi cuenta
     menu:
@@ -44,7 +45,7 @@ es:
           title: Registrarse como organización / colectivo
         success:
           back_to_index: Entendido, volver a la página principal
-          instructions_1: "En breve <b>nos pondremos en contacto contigo</b> para verificar que realmente representas a este colectivo."
+          instructions_1: En breve <b>nos pondremos en contacto contigo</b> para verificar que realmente representas a este colectivo.
           instructions_2: Mientras <b>revisa tu correo electrónico</b>, te hemos enviado un <b>enlace para confirmar tu cuenta</b>.
           instructions_3: Una vez confirmado, podrás empezar a participar como colectivo no verificado.
           thank_you: Gracias por registrar tu colectivo en la web. Ahora está <b>pendiente de verificación</b>.
@@ -57,7 +58,7 @@ es:
         title: Cambia tu contraseña
       new:
         send_submit: Recibir instrucciones
-        title: '¿Has olvidado tu contraseña?'
+        title: "¿Has olvidado tu contraseña?"
     sessions:
       new:
         remember_me: Recordarme
@@ -66,11 +67,11 @@ es:
     shared:
       links:
         login: Entrar
-        new_confirmation: '¿No has recibido instrucciones para confirmar tu cuenta?'
-        new_password: '¿Olvidaste tu contraseña?'
-        new_unlock: '¿No has recibido instrucciones para desbloquear?'
+        new_confirmation: "¿No has recibido instrucciones para confirmar tu cuenta?"
+        new_password: "¿Olvidaste tu contraseña?"
+        new_unlock: "¿No has recibido instrucciones para desbloquear?"
         signin_with_provider: Entrar con %{provider}
-        signup: '¿No tienes una cuenta? %{signup_link}'
+        signup: "¿No tienes una cuenta? %{signup_link}"
         signup_link: Regístrate
     unlocks:
       new:
@@ -94,10 +95,10 @@ es:
           password_confirmation_label: Confirmar contraseña nueva
           password_label: Contraseña nueva
           update_submit: Actualizar
-          waiting_for: "Esperando confirmación de:"
+          waiting_for: 'Esperando confirmación de:'
         new:
           cancel: Cancelar login
-          organization_signup: '¿Representas a una organización / colectivo? %{signup_link}'
+          organization_signup: "¿Representas a una organización / colectivo? %{signup_link}"
           organization_signup_link: Regístrate aquí
           password_confirmation_label: Repite la contraseña anterior
           submit: Registrarse

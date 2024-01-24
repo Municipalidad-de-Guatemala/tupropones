@@ -1,37 +1,38 @@
+---
 es:
   flash:
     actions:
       create:
+        budget_investment: Proyecto de gasto creado correctamente.
+        debate: Debate creado correctamente.
+        direct_message: Tu mensaje ha sido enviado correctamente.
         notice: "%{resource_name} creado correctamente."
-        debate: "Debate creado correctamente."
-        direct_message: "Tu mensaje ha sido enviado correctamente."
-        poll: "Votación creada correctamente."
-        poll_booth: "Urna creada correctamente."
-        poll_question_answer: "Respuesta creada correctamente"
-        poll_question_answer_video: "Vídeo creado correctamente"
-        poll_question_answer_image: "Imagen cargada correctamente"
-        proposal: "Propuesta creada correctamente."
-        proposal_notification: "Tu mensaje ha sido enviado correctamente."
-        budget_investment: "Proyecto de gasto creado correctamente."
-        signature_sheet: "Hoja de firmas creada correctamente"
-        support: "Proyecto de gasto apoyado correctamente"
-        topic: "Tema creado correctamente."
-        valuator_group: "Grupo de evaluadores creado correctamente"
+        poll: Votación creada correctamente.
+        poll_booth: Urna creada correctamente.
+        poll_question_answer: Respuesta creada correctamente
+        poll_question_answer_image: Imagen cargada correctamente
+        poll_question_answer_video: Vídeo creado correctamente
+        proposal: Propuesta creada correctamente.
+        proposal_notification: Tu mensaje ha sido enviado correctamente.
+        signature_sheet: Hoja de firmas creada correctamente
+        support: Proyecto de gasto apoyado correctamente
+        topic: Tema creado correctamente.
+        valuator_group: Grupo de evaluadores creado correctamente
+      destroy:
+        budget_investment: Proyecto de gasto eliminado.
+        poll_question_answer_video: Vídeo de respuesta eliminado.
+        topic: Tema eliminado.
+        valuator_group: Grupo de evaluadores eliminado correctamente
       save_changes:
         notice: Cambios guardados
       update:
+        active_poll: Descripción general de votaciones actualizada correctamente.
+        budget_investment: Proyecto de gasto actualizado correctamente
+        debate: Debate actualizado correctamente.
         notice: "%{resource_name} actualizado correctamente."
-        debate: "Debate actualizado correctamente."
-        poll: "Votación actualizada correctamente."
-        poll_booth: "Urna actualizada correctamente."
-        active_poll: "Descripción general de votaciones actualizada correctamente."
-        proposal: "Propuesta actualizada correctamente."
-        budget_investment: "Proyecto de gasto actualizado correctamente"
-        topic: "Tema actualizado correctamente."
-        valuator_group: "Grupo de evaluadores actualizado correctamente"
-        translation: "Traducción actualizada correctamente"
-      destroy:
-        budget_investment: "Proyecto de gasto eliminado."
-        topic: "Tema eliminado."
-        poll_question_answer_video: "Vídeo de respuesta eliminado."
-        valuator_group: "Grupo de evaluadores eliminado correctamente"
+        poll: Votación actualizada correctamente.
+        poll_booth: Urna actualizada correctamente.
+        proposal: Propuesta actualizada correctamente.
+        topic: Tema actualizado correctamente.
+        translation: Traducción actualizada correctamente
+        valuator_group: Grupo de evaluadores actualizado correctamente

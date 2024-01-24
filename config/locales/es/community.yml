@@ -1,41 +1,42 @@
+---
 es:
   community:
-    sidebar:
-      title: Comunidad
-      description:
-        proposal: Participa en la comunidad de usuarios de esta propuesta.
-        investment: Participa en la comunidad de usuarios de este proyecto de gasto.
-      button_to_access: Acceder a la comunidad
     show:
-      title:
-        proposal: Comunidad de la propuesta
-        investment: Comunidad del presupuesto participativo
-      description:
-        proposal: Participa en la comunidad de esta propuesta. Una comunidad activa puede ayudar a mejorar el contenido de la propuesta así como a dinamizar su difusión para conseguir más apoyos.
-        investment: Participa en la comunidad de este proyecto de gasto. Una comunidad activa puede ayudar a mejorar el contenido del proyecto de gasto así como a dinamizar su difusión para conseguir más apoyos.
-      create_first_community_topic:
-        first_theme_not_logged_in: No hay ningún tema disponible, participa creando el primero.
-        first_theme: Crea el primer tema de la comunidad
-        sub_first_theme: "Para crear un tema debes %{sign_in} o %{sign_up}."
-      tab:
-        participants: Participantes
-      sidebar:
-        participate: Participa
-        new_topic: Crea un tema
-      topic:
-        edit: Editar tema
-        destroy: Eliminar tema
       author: Autor
       back: Volver a %{community} %{proposal}
+      create_first_community_topic:
+        first_theme: Crea el primer tema de la comunidad
+        first_theme_not_logged_in: No hay ningún tema disponible, participa creando el primero.
+        sub_first_theme: Para crear un tema debes %{sign_in} o %{sign_up}.
+      description:
+        investment: Participa en la comunidad de este proyecto de gasto. Una comunidad activa puede ayudar a mejorar el contenido del proyecto de gasto así como a dinamizar su difusión para conseguir más apoyos.
+        proposal: Participa en la comunidad de esta propuesta. Una comunidad activa puede ayudar a mejorar el contenido de la propuesta así como a dinamizar su difusión para conseguir más apoyos.
+      sidebar:
+        new_topic: Crea un tema
+        participate: Participa
+      tab:
+        participants: Participantes
+      title:
+        investment: Comunidad del presupuesto participativo
+        proposal: Comunidad de la propuesta
+      topic:
+        destroy: Eliminar tema
+        edit: Editar tema
+    sidebar:
+      button_to_access: Acceder a la comunidad
+      description:
+        investment: Participa en la comunidad de usuarios de este proyecto de gasto.
+        proposal: Participa en la comunidad de usuarios de esta propuesta.
+      title: Comunidad
     topic:
       create: Crear un tema
       edit: Editar tema
       form:
-        new:
+        create:
           submit_button: Crear tema
         edit:
           submit_button: Guardar cambios
-        create:
+        new:
           submit_button: Crear tema
         update:
           submit_button: Actualizar tema
@@ -43,7 +44,7 @@ es:
         tab:
           comments_tab: Comentarios
       sidebar:
-        recommendations_title: Recomendaciones para crear un tema
         recommendation_one: No escribas el título del tema o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
-        recommendation_two: Cualquier tema o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios del tema, todo lo demás está permitido.
         recommendation_three: Disfruta de este espacio, de las voces que lo llenan, también es tuyo
+        recommendation_two: Cualquier tema o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios del tema, todo lo demás está permitido.
+        recommendations_title: Recomendaciones para crear un tema

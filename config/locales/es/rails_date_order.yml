@@ -1,6 +1,7 @@
+---
 es:
   date:
     order:
-      - :day
-      - :month
-      - :year
+    - :day
+    - :month
+    - :year

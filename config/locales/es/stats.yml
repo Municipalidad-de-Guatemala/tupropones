@@ -1,42 +1,43 @@
+---
 es:
   stats:
-    title: "Estadísticas de participación"
-    advanced: "Estadísticas avanzadas"
-    total_participants: "Participantes"
-    by_gender: "Participantes por género"
-    by_age: "Participantes por grupos de edad"
-    by_geozone: "Participantes por distritos"
+    advanced: Estadísticas avanzadas
+    age: Edad
+    age_more_than: De %{start} y más años
+    age_range: De %{start} a %{finish} años
+    budgets:
+      by_heading: Participantes por distritos y fase
+      by_phase: Participantes por fases
+      heading: Distrito
+      heading_disclaimer: "*** Los datos de distrito se refieren al distrito en el que el usuario ha votado, no necesariamente en el que está empadronado."
+      investments_sent: Propuestas<br>enviadas
+      link: Estadísticas
+      page_title: "%{budget} - Estadísticas de participación"
+      participants_every_phase: Total de participantes
+      participants_support_phase: Participantes fase apoyos
+      participants_vote_phase: Participantes fase votación
+      participatory_disclaimer: "** Las cifras de total de participantes se refieren a personas que han creado, apoyado o votado propuestas."
+      percent_heading_census: "% Censo distrito"
+      percent_total_participants: "% Total participantes"
+      total: Total
+      total_investments: Total proyectos de gasto
+      total_selected_investments: Proyectos en la fase final
+      total_unfeasible_investments: Proyectos inviables
+    by_age: Participantes por grupos de edad
+    by_gender: Participantes por género
+    by_geozone: Participantes por distritos
+    geozone: Distrito
     men_percentage: "%{percentage} Hombres"
-    women_percentage: "%{percentage} Mujeres"
-    age: "Edad"
-    age_more_than: "De %{start} y más años"
-    age_range: "De %{start} a %{finish} años"
-    total: "Total"
-    geozone: "Distrito"
     no_demographic_data:
       one: "* No se dispone de los datos demográficos de 1 participante."
       other: "* No se dispone de los datos demográficos de %{count} participantes."
-    budgets:
-      link: "Estadísticas"
-      page_title: "%{budget} - Estadísticas de participación"
-      total_investments: "Total proyectos de gasto"
-      total_selected_investments: "Proyectos en la fase final"
-      total_unfeasible_investments: "Proyectos inviables"
-      by_phase: "Participantes por fases"
-      by_heading: "Participantes por distritos y fase"
-      total: "Total"
-      heading: "Distrito"
-      investments_sent: "Propuestas<br>enviadas"
-      participants_support_phase: "Participantes fase apoyos"
-      participants_vote_phase: "Participantes fase votación"
-      participants_every_phase: "Total de participantes"
-      percent_total_participants: "% Total participantes"
-      percent_heading_census: "% Censo distrito"
-      participatory_disclaimer: "** Las cifras de total de participantes se refieren a personas que han creado, apoyado o votado propuestas."
-      heading_disclaimer: "*** Los datos de distrito se refieren al distrito en el que el usuario ha votado, no necesariamente en el que está empadronado."
     polls:
-      by_channel: "Participantes por medio"
-      vote_by_channel: "Votos emitidos por medio"
-      web_percentage: "%{percentage} Web"
       booth_percentage: "%{percentage} Urnas"
+      by_channel: Participantes por medio
       letter_percentage: "%{percentage} Correo"
+      vote_by_channel: Votos emitidos por medio
+      web_percentage: "%{percentage} Web"
+    title: Estadísticas de participación
+    total: Total
+    total_participants: Participantes
+    women_percentage: "%{percentage} Mujeres"

@@ -1,7 +1,25 @@
+---
 es:
   moderation:
     actions:
       confirm_action: "¿Estás seguro? %{action}"
+    budget_investments:
+      index:
+        block_authors: Bloquear autores
+        filter: Filtro
+        filters:
+          all: Todos
+          pending_flag_review: Pendientes de revisión
+          with_ignored_flag: Marcados como revisados
+        headers:
+          budget_investment: Proyecto de gasto
+          moderate: Moderar
+        hide: Ocultar proyectos de gasto
+        ignore_flags: Marcar como revisados
+        orders:
+          created_at: Más recientes
+          flags: Más denunciadas
+        title: Proyectos de gasto
     comments:
       index:
         block_authors: Bloquear autores
@@ -45,9 +63,26 @@ es:
       flagged_comments: Comentarios
       flagged_debates: Debates
       flagged_investments: Proyectos de gasto
-      proposals: Propuestas
       proposal_notifications: Notificaciones de propuestas
+      proposals: Propuestas
       users: Bloquear usuarios
+    proposal_notifications:
+      index:
+        block_authors: Bloquear autores
+        filter: Filtro
+        filters:
+          all: Todas
+          ignored: Marcadas como revisadas
+          pending_review: Pendientes de revisión
+        headers:
+          moderate: Moderar
+          proposal_notification: Notificación de propuesta
+        hide: Ocultar notificaciones
+        ignore_flags: Marcar como revisadas
+        orders:
+          created_at: Más recientes
+          moderated: Moderadas
+        title: Notificaciones de propuestas
     proposals:
       index:
         block_authors: Bloquear autores
@@ -65,45 +100,11 @@ es:
           created_at: Más recientes
           flags: Más denunciadas
         title: Propuestas
-    budget_investments:
-      index:
-        block_authors: Bloquear autores
-        filter: Filtro
-        filters:
-          all: Todos
-          pending_flag_review: Pendientes de revisión
-          with_ignored_flag: Marcados como revisados
-        headers:
-          moderate: Moderar
-          budget_investment: Proyecto de gasto
-        hide: Ocultar proyectos de gasto
-        ignore_flags: Marcar como revisados
-        orders:
-          created_at: Más recientes
-          flags: Más denunciadas
-        title: Proyectos de gasto
-    proposal_notifications:
-      index:
-        block_authors: Bloquear autores
-        filter: Filtro
-        filters:
-          all: Todas
-          pending_review: Pendientes de revisión
-          ignored: Marcadas como revisadas
-        headers:
-          moderate: Moderar
-          proposal_notification: Notificación de propuesta
-        hide: Ocultar notificaciones
-        ignore_flags: Marcar como revisadas
-        orders:
-          created_at: Más recientes
-          moderated: Moderadas
-        title: Notificaciones de propuestas
     users:
       index:
         block: Bloquear
-        confirm_block: "¿Seguro? Esto ocultará a \"%{name}\" así como todos sus contenidos."
-        confirm_hide: "¿Seguro? Esto ocultará a \"%{name}\" sin ocultar sus contenidos."
+        confirm_block: ¿Seguro? Esto ocultará a "%{name}" así como todos sus contenidos.
+        confirm_hide: ¿Seguro? Esto ocultará a "%{name}" sin ocultar sus contenidos.
         hide: Ocultar
         search_placeholder: email o nombre de usuario
         title: Bloquear usuarios
